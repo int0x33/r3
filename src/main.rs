@@ -10,6 +10,25 @@ use std::result::Result;
 use select::document::Document;
 use select::predicate::Name;
 
+fn get_urls(url: &str) -> Result<(), Error>
+{
+    let url2req = format!("http://{}", url);
+    let response = reqwest::get(&url2req).expect("Failed to send request");
+    if response.status() == 200 {
+        //println!("Status: {}", response.status());
+        //println!("Headers:\n{:#?}", response.headers());
+        //let json = response.text();
+       // println!("{:?}", json);
+        Document::from_read(response)?
+        .find(Name("a"))
+        .filter_map(|n| n.attr("href"))
+        .for_each(|x| println!("{}", x));
+    } else {
+        println!("FAILED");
+    }
+    Ok(())
+}
+
 fn get_tcp(url: &str) -> Result<(), Error>
 {
     let url2req = format!("http://{}", url);
@@ -37,7 +56,7 @@ fn run() -> Result<(), Error> {
 
     for line in buffered.lines() {
         let url = String::from(line?);
-        let _ = get_tcp(&url);
+        let _ = get_urls(&url);
     }
     Ok(())
 }
