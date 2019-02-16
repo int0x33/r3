@@ -1,0 +1,28 @@
+extern crate termion;
+extern crate reqwest;
+extern crate select;
+
+use select::document::Document;
+use select::predicate::Name;
+
+use std::fs::File;
+use std::io::{BufRead, BufReader, Result};
+
+fn run() -> Result<()> {
+    let res = reqwest::get("https://www.rust-lang.org/en-US/")?;
+
+    Document::from_read(res)?
+        .find(Name("a"))
+        .filter_map(|n| n.attr("href"))
+        .for_each(|x| println!("{}", x));
+
+    Ok(())
+}
+
+fn main() -> Result<()> {
+    let file = File::open("target/urls.txt")?;
+    for line in BufReader::new(file).lines() {
+        println!("{}", line?);
+    }
+    Ok(())
+}

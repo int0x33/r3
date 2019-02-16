@@ -1,0 +1,13 @@
+/Users/porthunter/htdocs/r3/target/debug/deps/libnet2-3b44bd445cef2854.rlib: /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/lib.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/tcp.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/udp.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/socket.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/ext.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/utils.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/sys/unix/mod.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/sys/unix/impls.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/unix.rs
+
+/Users/porthunter/htdocs/r3/target/debug/deps/net2-3b44bd445cef2854.d: /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/lib.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/tcp.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/udp.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/socket.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/ext.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/utils.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/sys/unix/mod.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/sys/unix/impls.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/unix.rs
+
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/lib.rs:
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/tcp.rs:
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/udp.rs:
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/socket.rs:
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/ext.rs:
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/utils.rs:
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/sys/unix/mod.rs:
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/sys/unix/impls.rs:
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.33/src/unix.rs:

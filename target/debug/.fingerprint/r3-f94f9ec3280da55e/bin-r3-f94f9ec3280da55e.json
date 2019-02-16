@@ -1,0 +1,1 @@
+{"rustc":16265852364697717846,"features":"[]","target":15000765753769142526,"profile":1593209607371674207,"path":1036222786711178230,"deps":[["termion v1.5.1","termion",6651476402834523969]],"local":[{"MtimeBased":[[1550251268,213032605],".fingerprint/r3-f94f9ec3280da55e/dep-bin-r3-f94f9ec3280da55e"]}],"rustflags":[],"edition":"Edition2018"}

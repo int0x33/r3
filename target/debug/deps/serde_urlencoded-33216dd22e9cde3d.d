@@ -1,0 +1,11 @@
+/Users/porthunter/htdocs/r3/target/debug/deps/libserde_urlencoded-33216dd22e9cde3d.rlib: /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/lib.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/de.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/mod.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/key.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/pair.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/part.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/value.rs
+
+/Users/porthunter/htdocs/r3/target/debug/deps/serde_urlencoded-33216dd22e9cde3d.d: /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/lib.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/de.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/mod.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/key.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/pair.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/part.rs /Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/value.rs
+
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/lib.rs:
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/de.rs:
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/mod.rs:
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/key.rs:
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/pair.rs:
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/part.rs:
+/Users/porthunter/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.5.4/src/ser/value.rs:

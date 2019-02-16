@@ -1,0 +1,12 @@
+[package]
+name = "r3"
+version = "0.1.0"
+authors = ["int0x33 <mrsmith@lolmail.org>"]
+edition = "2018"
+
+[dependencies]
+termion = "1"
+reqwest = "*"
+select = "*"
+url = "*"
+error-chain = "*"
