@@ -1,20 +1,28 @@
 extern crate termion;
 extern crate reqwest;
+extern crate select;
 
 use std::fs::File;
 use std::io::{BufReader, BufRead};
 use std::io::Error;
 use std::result::Result;
 
+use select::document::Document;
+use select::predicate::Name;
+
 fn get_tcp(url: &str) -> Result<(), Error>
 {
     let url2req = format!("http://{}", url);
-    let mut response = reqwest::get(&url2req).expect("Failed to send request");
+    let response = reqwest::get(&url2req).expect("Failed to send request");
     if response.status() == 200 {
-        println!("Status: {}", response.status());
-        println!("Headers:\n{:#?}", response.headers());
-        let json = response.text();
-        println!("{:?}", json);
+        //println!("Status: {}", response.status());
+        //println!("Headers:\n{:#?}", response.headers());
+        //let json = response.text();
+       // println!("{:?}", json);
+        Document::from_read(response)?
+        .find(Name("a"))
+        .filter_map(|n| n.attr("href"))
+        .for_each(|x| println!("{}", x));
     } else {
         println!("FAILED");
     }
